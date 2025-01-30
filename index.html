@@ -10,21 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- google fonts  -->
+<!-- css link  -->
 
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-   
-    .sora {
-  font-family: "Sora", serif;
-}
-   </style>
-
+<link rel="stylesheet" href="style.css">
 
     <title>Assignment 3</title>
 </head>
 
-<body class="sora">
+<body class="sora text-[#111111]">
     <!-- header section  -->
 
     <header class="border-b border-[#179800] md:border-none mt-0 md:mt-4 mb-20">
@@ -55,20 +48,49 @@
                         d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                 </svg>
 
-                <button class="py-1 px-5 text-[18px] border-2 border-[#179800] bg-transparent  text-[#179800] hover:text-white rounded-[7px] hover:bg-[#179800]">Login</button>
-                <button class="py-1 px-5 text-[18px] border-2 border-[#179800] hover:bg-transparent hover:text-[#179800] text-white rounded-[7px] bg-[#179800]">Register</button>
+                <button
+                    class="py-1 px-5 text-[18px] border-2 border-[#179800] bg-transparent  text-[#179800] hover:text-white rounded-[7px] hover:bg-[#179800]">Login</button>
+                <button
+                    class="py-1 px-5 text-[18px] border-2 border-[#179800] hover:bg-transparent hover:text-[#179800] text-white rounded-[7px] bg-[#179800]">Register</button>
 
             </div>
             <div class="block md:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  </svg>
-                  
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
             </div>
         </nav>
     </header>
 
+    <!-- main section  -->
 
+    <main>
+
+        <!-- banner section  -->
+        <section id="banner" class="bg-gradient-to-b from-white to-[#EFEBE3] px-4">
+            <div class="flex text-center flex-col justify-center items-center max-w-[90] mx-auto gap-16">
+              
+                    <div id="text">
+                        <h1 class="text-[40px] font-semibold my-8">Freshness <span class="text-[#179800]">You Can <br class="hidden md:block">
+                                Count</span> On, Prices You’ll Love!</h1>
+                        <p class="font-light">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br class="hidden md:block"> staples, we’ve
+                            got you covered every day!</p>
+                    </div>
+
+                    <div id="image" class="flex justify-center">
+                        <img src="c2-assets/hero-vegetables.png" alt="" class="w-[100%]">
+
+
+                    </div>
+                </div>
+
+       
+        </section>
+
+    </main>
 </body>
 
 </html>
