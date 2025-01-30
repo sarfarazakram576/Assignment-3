@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- daisy ui cdn  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<!-- google fonts  -->
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+   
+    .sora {
+  font-family: "Sora", serif;
+}
+   </style>
+
+
+    <title>Assignment 3</title>
+</head>
+
+<body class="sora">
+    <!-- header section  -->
+
+    <header class="border-b border-[#179800] md:border-none mt-0 md:mt-4 mb-20">
+        <!-- navbar -->
+
+        <nav class="flex justify-around gap-2 items-center  mb-1 max-w-[90vw] mx-auto">
+            <div class="flex-1">
+                <img src="c2-assets/nav logo.png" alt="" class=" w-16 md:hidden">
+                <img src="c2-assets/logo-header.png" alt="" class="hidden md:block w-[45%] xl:w-[20%]">
+            </div>
+            <div class="hidden md:block ">
+                <ul class="flex md:gap-4 lg:gap-10 flex-1 ">
+                    <li><a href="#" class="text-sm">Products</a></li>
+                    <li><a href="#" class="text-sm">Services</a></li>
+                    <li><a href="#" class="text-sm">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="hidden gap-2 lg:gap-4  md:flex flex-1 justify-end">
+                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6" class="w-6">
+                    <path strokeLinecap="round" strokeLinejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+
+                <button class="py-1 px-5 text-[18px] border-2 border-[#179800] bg-transparent  text-[#179800] hover:text-white rounded-[7px] hover:bg-[#179800]">Login</button>
+                <button class="py-1 px-5 text-[18px] border-2 border-[#179800] hover:bg-transparent hover:text-[#179800] text-white rounded-[7px] bg-[#179800]">Register</button>
+
+            </div>
+            <div class="block md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                  
+            </div>
+        </nav>
+    </header>
+
+
+</body>
+
+</html>
