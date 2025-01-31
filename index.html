@@ -10,9 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- css link  -->
+    <!-- css link  -->
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Assignment 3</title>
 </head>
@@ -20,10 +20,11 @@
 <body class="sora text-[#111111]">
     <!-- header section  -->
 
-    <header class="border-b border-[#179800] md:border-none mt-0 md:mt-4 mb-20">
+
+    <header class="border-b border-[#179800] md:border-none px-4 ">
         <!-- navbar -->
 
-        <nav class="flex justify-around gap-2 items-center  mb-1 max-w-[90vw] mx-auto">
+        <nav class="flex justify-around gap-2 items-center   mt-0 md:mt-4 mb-2 sm:container mx-auto">
             <div class="flex-1">
                 <img src="c2-assets/nav logo.png" alt="" class=" w-16 md:hidden">
                 <img src="c2-assets/logo-header.png" alt="" class="hidden md:block w-[45%] xl:w-[20%]">
@@ -65,31 +66,86 @@
         </nav>
     </header>
 
+
     <!-- main section  -->
 
     <main>
 
         <!-- banner section  -->
-        <section id="banner" class="bg-gradient-to-b from-white to-[#EFEBE3] px-4">
-            <div class="flex text-center flex-col justify-center items-center max-w-[90] mx-auto gap-16">
-              
-                    <div id="text">
-                        <h1 class="text-[40px] font-semibold my-8">Freshness <span class="text-[#179800]">You Can <br class="hidden md:block">
-                                Count</span> On, Prices You’ll Love!</h1>
-                        <p class="font-light">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br class="hidden md:block"> staples, we’ve
-                            got you covered every day!</p>
+        <section id="banner" class="bg-gradient-to-b from-white to-[#EFEBE3] px-4 mb-10">
+            <div class="flex text-center flex-col justify-center items-center  gap-16">
+
+                <div id="text">
+                    <h1 class="text-[40px] font-semibold my-8">Freshness <span class="text-[#179800]">You Can <br
+                                class="hidden md:block">
+                            Count</span> On, Prices You’ll Love!</h1>
+                    <p class="font-light">Shop your daily essentials at unbeatable prices. From fresh produce to pantry
+                        <br class="hidden md:block"> staples, we’ve
+                        got you covered every day!
+                    </p>
+                </div>
+
+                <div id="image" class="flex justify-center">
+                    <img src="c2-assets/hero-vegetables.png" alt="" class="w-[100%]">
+
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- services section  -->
+        <section class=" md:container mx-auto">
+            <h2 class="font-semibold text-2xl text-[#179800] mb-10 ml-6 md:ml-2">Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-2 ">
+                
+                <div class="card bg-[#EFEBE3] py-8 mx-4 md:mx-0">
+                    <div class="flex justify-center">
+                        <img src="c2-assets/service.png" alt="" class="w-[30%] bg-white  rounded-full p-4">
                     </div>
-
-                    <div id="image" class="flex justify-center">
-                        <img src="c2-assets/hero-vegetables.png" alt="" class="w-[100%]">
-
+                    <div class="mt-0 text-center p-8">
+                        <h2 class="mb-4 font-bold text-xl">24/7 Services </h2>
+                        <p class="font-light text-sm">"Reliable 24/7 services, always available when you need us.
+                            Day or night, we’re here to assist you.
+                            Count on us anytime, anywhere!"</p>
 
                     </div>
                 </div>
 
-       
-        </section>
+                <div class="card bg-[#EFEBE3] py-8 mx-4 md:mx-0">
+                    <div class="flex justify-center">
+                        <img src="c2-assets/delivery.png" alt="" class="w-[30%] bg-white  rounded-full p-4">
+                    </div>
+                    <div class="mt-0 text-center p-8">
+                        <h2 class="mb-4 font-bold text-xl">Fast Delivery</h2>
+                        <p class="font-light text-sm">"
+                            "Lightning-fast delivery, right when you need it.
+                            We ensure speed, reliability, and efficiency.
+                            Your order, delivered in no time!"</p>
 
+                    </div>
+                </div>
+
+                <div class="card bg-[#EFEBE3] py-8 mx-4 md:mx-0">
+                    <div class="flex justify-center">
+                        <img src="c2-assets/healthy.png" alt="" class="w-[30%] bg-white  rounded-full p-4">
+                    </div>
+                    <div class="mt-0 text-center p-8">
+                        <h2 class="mb-4 font-bold text-xl">Healthy Products </h2>
+                        <p class="font-light text-sm">
+
+                            "Pure, natural, and always healthy.
+                            Quality ingredients for a better you.
+                            Nourish your body with the best every day!"
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
     </main>
 </body>
 

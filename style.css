@@ -6,7 +6,7 @@
 
 #banner:hover #image,
 #banner:hover #text {
-    animation: scale 2.5s ease-out 1 alternate;
+    animation: scale 2s ease-out 1 alternate;
 }
 
 @keyframes scale {
@@ -17,4 +17,13 @@
     100% {
         transform: scale(1);
     }
+}
+.card {
+    overflow: hidden;
+    display: inline-block;
+}
+.card:hover{
+    transition: all 1.2s ease-out;
+    transform: scale(1.06) translate(0 ,  -12px);
+
 }
